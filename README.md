@@ -86,7 +86,7 @@ Conclusion
 
 This code offers a full machine learning pipeline: loading data, preprocessing, training a CNN model, saving/loading the model, and testing it on real-world images. It serves as a practical foundation for anyone learning computer vision and deep learning using Python and TensorFlow.
 
-For the classification of Images, we gave some images to classify the images into types like birds, vehicles and so on...
+For the classification of Images, we gave some images to classify the images into types like bird, truck, frog and so on...
 
 DATASET IMAGE:
 
