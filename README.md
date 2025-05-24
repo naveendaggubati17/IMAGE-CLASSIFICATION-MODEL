@@ -98,7 +98,7 @@ DATASET IMAGE:
 
 
 
-
+---
 For the classification, the input is given and the output is provided by our classification model.
 
 INPUT IMAGE :
@@ -108,7 +108,7 @@ INPUT IMAGE :
 
 
 
-
+---
 BY USING THE INPUT, OUR MODEL PREDICTED THAT IT IS A "BIRD".
 
 OUTPUT:
