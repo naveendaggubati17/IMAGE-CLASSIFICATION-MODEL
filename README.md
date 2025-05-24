@@ -14,7 +14,7 @@ MENTOR : NEELA SANTOSH
 
 EXPLANATION OF THE CODE:
 
-The given code implements an image classification pipeline using the CIFAR-10 dataset and a Convolutional Neural Network (CNN) built with TensorFlow and Keras. It also includes functionality to test the model on an external image. Here's a detailed explanation of the code in approximately 500 words:
+The given code implements an image classification pipeline using the CIFAR-10 dataset and a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
 
 ---
 
