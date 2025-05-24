@@ -23,13 +23,21 @@ for i in range(100):
     plt.imshow(tr_img[i])
     plt.xlabel(class_names[tr_labels[i][0]])
 plt.show()
-
+![Image](https://github.com/user-attachments/assets/597b0ebf-3677-49c7-ad9f-dacd465ad9a1)
 
 tr_img_scaled[10]
 plt.imshow(tr_img_scaled[10])
+![Image](https://github.com/user-attachments/assets/60fa3a4c-2ac7-4761-8dd1-7de7a3cf1535)
+
 plt.imshow(tr_img[10])
+![Image](https://github.com/user-attachments/assets/95822bef-2f5b-4b5f-97ee-49c2eb07c88c)
+
 plt.imshow(tr_img_scaled[24])
+![Image](https://github.com/user-attachments/assets/c402bdc8-e6ac-45df-84f2-6703ddf15579)
+
 plt.imshow(tr_img[24])
+![Image](https://github.com/user-attachments/assets/c4926b8e-b832-4e51-9461-fbeb15a599a9)
+
 model=models.Sequential()
 model.add(layers.Conv2D(32,(3,3),activation='relu',input_shape=(32,32,3)))
 model.add(MaxPooling2D(2,2))
@@ -52,6 +60,8 @@ pickled_model=pickle.load(open('img_class.pkl','rb'))
 img_test1=cv.imread("C:/Users/Shruti/Downloads/Bird.jpg")
 img_test1
 plt.imshow(img_test1)
+![Image](https://github.com/user-attachments/assets/9e76fa73-a0c4-4fbc-9bf7-46c603be4c05)
+
 img_test1=cv.cvtColor(img_test1,cv.COLOR_BGR2RGB)
 img_test1_resized = cv.resize(img_test1, (32, 32))
 img_test1_scaled=img_test1_resized/255
@@ -60,3 +70,8 @@ prediction=model.predict(img_test1_final)
 prediction
 index=np.argmax(prediction)
 class_names[index]
+
+
+OUTPUT :
+
+Bird
