@@ -12,6 +12,8 @@ DURATION : 6 WEEKS
 
 MENTOR : NEELA SANTOSH
 
+---
+
 EXPLANATION OF THE CODE:
 
 The given code implements an image classification pipeline using the CIFAR-10 dataset and a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
